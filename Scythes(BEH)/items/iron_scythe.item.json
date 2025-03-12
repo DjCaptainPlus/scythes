@@ -1,0 +1,43 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "djc:iron_scythe",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+      "minecraft:custom_components": ["djc:on_use_on_scythe_harvest"],
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": "iron_scythe",
+      "minecraft:can_destroy_in_creative": {
+        "value": true
+      },
+      "minecraft:hand_equipped": {
+        "value": true
+      },
+      "minecraft:tags": {
+        "tags": ["scythe", "reach:2"]
+      },
+      "minecraft:damage": {
+        "value": 4
+      },
+      "minecraft:enchantable": {
+        "value": 14,
+        "slot": "axe"
+      },
+      "minecraft:durability": {
+        "max_durability": 500
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:iron_ingot"],
+            "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+          }
+        ]
+      }
+    }
+	}
+}

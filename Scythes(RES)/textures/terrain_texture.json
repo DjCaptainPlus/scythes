@@ -1,0 +1,23 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"fake_carrots": {
+			"textures": "textures/blocks/fake_carrots.png"
+		},
+		"fake_potatoes": {
+			"textures": "textures/blocks/fake_potatoes.png"
+		},
+		"fake_wheat": {
+			"textures": "textures/blocks/fake_wheat.png"
+		},
+		"fake_beetroots": {
+			"textures": "textures/blocks/fake_beetroots.png"
+		},
+		"fake_sugar_cane": {
+			"textures": "textures/blocks/fake_sugar_cane.png"
+		}
+	}
+}

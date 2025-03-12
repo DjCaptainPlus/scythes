@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "djc:wooden_scythe_from_warped_planks"
+    },
+
+    "tags": ["crafting_table"],
+    "pattern": ["XXX", "X S", "  S"],
+    "key": {
+      "X": {
+        "item": "minecraft:warped_planks"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:stick"
+      }
+    ],
+    "result": {
+      "item": "djc:wooden_scythe"
+    }
+  }
+}

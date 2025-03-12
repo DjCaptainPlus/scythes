@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "djc:golden_scythe"
+    },
+
+    "tags": ["crafting_table"],
+    "pattern": ["XXX", "X S", "  S"],
+    "key": {
+      "X": {
+        "item": "minecraft:gold_ingot"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:gold_ingot"
+      }
+    ],
+    "result": {
+      "item": "djc:golden_scythe"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"texture_data": {
+		"wooden_scythe": {
+			"textures": "textures/items/wooden_scythe.png"
+		},
+		"stone_scythe": {
+			"textures": "textures/items/stone_scythe.png"
+		},
+		"iron_scythe": {
+			"textures": "textures/items/iron_scythe.png"
+		},
+		"golden_scythe": {
+			"textures": "textures/items/golden_scythe.png"
+		},
+		"diamond_scythe": {
+			"textures": "textures/items/diamond_scythe.png"
+		},
+		"netherite_scythe": {
+			"textures": "textures/items/netherite_scythe.png"
+		},
+		"crowbar": {
+			"textures": "textures/items/crowbar.png"
+		}
+	}
+}

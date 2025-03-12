@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:player",
+			"scripts": {
+				"animate": [
+					"root",
+					{
+						"first_person_attack_scythe": "variable.is_first_person && variable.attack_time > 0.0f && query.equipped_item_any_tag('slot.weapon.mainhand','scythe')"
+					}
+				]
+			},
+			"animations": {
+				"first_person_attack_crowbar": "animation.player.first_person.attack_crowbar",
+				"first_person_crowbar_bob": "animation.player.first_person.crowbar_bob",
+				"first_person_attack_scythe": "animation.player.first_person.attack_scythe"
+			}
+		}
+	}
+}

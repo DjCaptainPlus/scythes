@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Scythes 1.2.2",
+		"description": "Scythes Resource Pack",
+		"uuid": "f521beb6-df86-4da7-9a00-1e08de6f58f6",
+		"version": [1, 2, 2],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["DjCaptainPlus"],
+		"generated_with": {
+			"blockbench_item_wizard": ["1.1.0"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Scythes",
+			"type": "resources",
+			"uuid": "caf25dfc-45b6-4cad-88dc-c262ae70d619",
+			"version": [1, 2, 2]
+		}
+	]
+}

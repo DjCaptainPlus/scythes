@@ -1,0 +1,41 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Scythes 1.2.2",
+    "description": "Scythes Behavior Pack",
+    "uuid": "ba9852f0-3f50-4822-bea5-c4b45ade7156",
+    "version": [1, 2, 2],
+    "min_engine_version": [1, 20, 0]
+  },
+  "metadata": {
+    "authors": ["DjCaptainPlus"],
+    "generated_with": {
+      "blockbench_item_wizard": ["1.1.0"]
+    }
+  },
+  "modules": [
+    {
+      "description": "Behavior",
+      "version": [1, 2, 2],
+      "uuid": "34af5053-6e8a-4b05-9948-607ee7ff18c8",
+      "type": "data"
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "1c81d376-7bdf-4c2e-a02f-9102ef66eece",
+      "entry": "scripts/main.js",
+      "version": [1, 2, 2]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "f521beb6-df86-4da7-9a00-1e08de6f58f6",
+      "version": [1, 2, 2]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.16.0"
+    }
+  ]
+}

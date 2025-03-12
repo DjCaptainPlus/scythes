@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.20",
+	"sound_definitions": {
+		"scythe.whoosh": {
+			"category": "ui",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": ["sounds/whooshing_sound"]
+		},
+		"scythe.shing": {
+			"category": "ui",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": ["sounds/scythe_1", "sounds/scythe_2", "sounds/scythe_3", "sounds/scythe_4", "sounds/scythe_6", "sounds/scythe_7", "sounds/scythe_8", "sounds/scythe_9"]
+		},
+		"scythe.slash": {
+			"category": "ui",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": ["sounds/scythe_slash_1", "sounds/scythe_slash_2","sounds/scythe_slash_3","sounds/scythe_slash_4"]
+		}
+	}
+}

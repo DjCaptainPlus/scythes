@@ -1,0 +1,21 @@
+{
+	"format_version": "1.1.0",
+	"fake_carrots": {
+		"sound": "grass"
+	},
+	"fake_potatoes": {
+		"sound": "grass"
+	},
+	"fake_wheat": {
+		"sound": "grass"
+	},
+	"fake_beetroots": {
+		"sound": "grass"
+	},
+	"fake_sugar_cane": {
+		"sound": "grass"
+	},
+	"fake_bamboo": {
+		"sound": "bamboo"
+	}
+}

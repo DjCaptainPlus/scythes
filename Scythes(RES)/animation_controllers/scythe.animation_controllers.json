@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.cosmetic.bunny_slippers": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": ["bunny_slippers.base", "bunny_slippers.move"],
+					"variables": {
+						"move_speed": {
+							"input": "query.modified_move_speed",
+							"remap_curve": {
+								"0.0": 0,
+								"0.1": 1
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

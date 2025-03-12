@@ -1,0 +1,60 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.scythe.first_person": {
+			"loop": true,
+			"bones": {
+				"scythe": {
+					"rotation": [19.68853, -16.80537, -128.23138],
+					"position": [-2.99618, -12.6784, -3.04647]
+				}
+			}
+		},
+		"animation.player.first_person.attack_scythe": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [
+						"10 * (1 - 4 * (variable.attack_time - 0.5) * (variable.attack_time - 0.5))",
+						"152 * (1 - 4 * (variable.attack_time - 0.5) * (variable.attack_time - 0.5))",
+						"65 * (1 - 4 * (variable.attack_time - 0.8) * (variable.attack_time - 0.2))"
+					],
+					"position": [
+						"-12 * (1 - 4 * (variable.attack_time - 0.5) * (variable.attack_time - 0.5))",
+						"0 * (1 - 4 * (variable.attack_time - 0.8) * (variable.attack_time - 0.8))",
+						"5 * (1 - 4 * (variable.attack_time - 0.5) * (variable.attack_time - 0.5))"
+					]
+				}
+			}
+		},
+		"animation.scythe.first_person2": {
+			"loop": true,
+			"bones": {
+				"scythe": {
+					"rotation": [19.68853, -16.80537, -128.23138],
+					"position": [-2.99618, -12.6784, -3.04647]
+				},
+				"rightArm": {
+					"rotation": [0, 112, 65]
+				}
+			}
+		},
+		"animation.scythe.third_person": {
+			"loop": true,
+			"bones": {
+				"scythe": {
+					"rotation": [90, 0, -90],
+					"position": [-1, -12, -4]
+				}
+			}
+		},
+		"animation.player.scythe.whoosh": {
+			"loop": true,
+			"sound_effects": {
+				"0.0": {
+					"effect": "whoosh"
+				}
+			}
+		}
+	}
+}

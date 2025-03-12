@@ -1,0 +1,56 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.crowbar.third_person": {
+			"loop": true,
+			"bones": {
+				"crowbar": {
+					"rotation": [90, 0, 0],
+					"position": [-6, 14, 7]
+				}
+			}
+		},
+		"animation.crowbar.first_person": {
+			"loop": true,
+			"bones": {
+				"crowbar": {
+					"rotation": [88.41166, 61.80135, -51.85045],
+					"position": [-4.7098, 18.79325, 3.24744]
+				}
+			}
+		},
+		"animation.player.first_person.crowbar_bob": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"position": [0, "variable.bob_animation * math.sin(q.life_time * 45.0) * 0.5", 0]
+				}
+			}
+		},
+		"animation.player.first_person.attack_crowbar": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [
+						"0 * (1 - 4 * (variable.attack_time - 0.5) * (variable.attack_time - 0.5))",
+						"70 * (1 - 4 * (variable.attack_time - 0.2) * (variable.attack_time - 0.8))",
+						"-30 * (1 - 4 * (variable.attack_time - 0.5) * (variable.attack_time - 0.5))"
+					],
+					"position": [
+						"-9 * (1 - 4 * (variable.attack_time - 0.5) * (variable.attack_time - 0.5))",
+						"3 * (1 - 4 * (variable.attack_time - 0.2) * (variable.attack_time - 0.8))",
+						"0 * (1 - 4 * (variable.attack_time - 0.5) * (variable.attack_time - 0.5))"
+					]
+				}
+			}
+		},
+		"animation.crowbar.final": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [-20, 42.5, -5]
+				}
+			}
+		}
+	}
+}
